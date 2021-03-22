@@ -1,0 +1,156 @@
+/*@keyframes changeshape{
+    0%{
+        border-radius: 0%;
+    }
+    100%{
+        border-radius: 50%;
+    }
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes reduce-size{
+    from{
+        weight:200px;
+        height: 200px;
+    }
+    to{
+        weight:100px;
+        height:100px;
+    }
+}
+@keyframes jumping{
+     0%{
+         transform: translateY(0px);
+     }
+     25%{
+         transform: translateY(50px);
+     }
+     50%{
+         transform: translateY(0px);
+     }
+     75%{
+         transform: translateY(30px);
+     }
+     100%{
+         transform: translateY(0px);
+     }
+ }*/
+.cube{
+    height:200px;
+    width:200px;
+    position:relative;
+    margin:100px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transform: rotateX(25deg) rotateY(-25deg);
+   /* background-color: aqua;
+    animation-name: changeshape,rotate,reduce-size;
+    animation-duration: 1s,1s,1s;
+    animation-iteration-count: infinite,infinite,infinite;
+    animation-direction:alternate,alternate,alternate ;*/
+    /*animation:changeshape 1s ease-in-out 4 alternate;*/
+  /* animation: jumping 1s ease-in-out 1 alternate;*/
+    /*  transform: translate(100px,100px);
+    transform: rotate(45deg);
+    transition: 1s ease-in-out;
+*/
+}
+/*div:hover{
+  border-radius: 50%;
+ height: 400px;
+    width: 300px;
+}*/
+
+.face{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:20%;
+    left:20%;
+    transition:all 1s;
+}
+.one{
+    background-color: skyblue;
+}
+.two{
+    background-color: rgb(240, 159, 10);
+    transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
+}
+.three{
+    background-color: blue;
+    transform: rotateZ(90deg) rotateY(68deg);
+}
+
+*/
+/*@keyframes changeShape{
+   
+     from{
+        border-radius:0%;
+    }
+    to{
+        border-radius:50%;
+    }*/
+    /*0%{
+        border-radius:0%;
+    }
+    25%{
+        border-radius:12.5%;
+    }
+    50%{
+        border-radius:25%;
+    }
+    100%{
+        border-radius:50;
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes reducesize{
+    from{
+        height:200px ;
+       width:200px;
+    }
+    to{
+        height: 100px;
+        width:100px;
+    }
+}
+
+#div{
+    border:1px solid black;
+    height:200px;
+    position: absolute;
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+    background-color: #00ffff;
+   /* transform: rotate(40deg);*/
+   /*transform: translate(100px,100px);*/
+   /*transition: 1s ease-in-out;*/
+   /*transition: 1s steps(5, end);*/
+   /*animation: changeShape 1s ease-in-out infinite alternate;*/
+   /*animation-name: changeShape,rotate,reducesize;
+   animation-duration: 0.8s, 0.8s,0.8s;
+   animation-iteration-count: infinite,infinite,infinite;
+   animation-direction: alternate,alternate,alternate;
+}
+   
+
+#div:hover{
+    
+    transform: scale(1.5) translate(150px);
+}
+*/
